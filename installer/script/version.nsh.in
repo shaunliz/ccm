@@ -1,0 +1,10 @@
+; Copyright (C) 2026 Innogrid Co., Ltd.
+; SPDX-License-Identifier: GPL-3.0-only
+
+; ---------------------------------------------------------------------------
+;  installer/version.nsh  (generated - do not edit)
+;
+;  CMake writes this from project(VERSION ...) so the installer can never
+;  disagree with the executables it packages.
+; ---------------------------------------------------------------------------
+!define APP_VERSION "@CCM_VERSION@"

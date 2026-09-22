@@ -1,0 +1,60 @@
+// Copyright (C) 2026 Innogrid Co., Ltd.
+// SPDX-License-Identifier: GPL-3.0-only
+
+// ============================================================================
+//  res/ClaudeCodeMonitor.rc.in
+//
+//  Windows resource script template. CMake fills in the version and the icon
+//  path, then each executable compiles its own copy of the result.
+//
+//  ASCII-only on purpose: the MSVC resource compiler reads .rc files with the
+//  system codepage unless told otherwise, so non-ASCII text here is a trap.
+//  The Korean notes for this file live in README.md.
+//
+//  IDI_ICON1 is what Qt's windows platform plugin looks up for the default
+//  window icon, so numbering it 1 matters.
+//
+//  Do not edit the generated .rc under the build directory - edit this file.
+// ============================================================================
+
+#define IDI_ICON1 1
+
+IDI_ICON1 ICON "@CCM_ICO_PATH@"
+
+// ---------------------------------------------------------------------------
+//  Version resource
+//
+//  Without this block Explorer's Properties dialog and Task Manager show no
+//  version at all, which makes "which build is this?" unanswerable on a user's
+//  machine. The numbers come from project(VERSION) in CMakeLists.txt.
+// ---------------------------------------------------------------------------
+
+1 VERSIONINFO
+FILEVERSION    @CCM_VER_MAJOR@,@CCM_VER_MINOR@,@CCM_VER_PATCH@,0
+PRODUCTVERSION @CCM_VER_MAJOR@,@CCM_VER_MINOR@,@CCM_VER_PATCH@,0
+FILEFLAGSMASK  0x3fL
+FILEFLAGS      0x0L
+FILEOS         0x40004L   // VOS_NT_WINDOWS32
+FILETYPE       0x1L       // VFT_APP
+FILESUBTYPE    0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        // 0412 = Korean, 04b0 = Unicode
+        BLOCK "041204b0"
+        BEGIN
+            VALUE "CompanyName",      "Innogrid Co., Ltd."
+            VALUE "FileDescription",  "@CCM_RC_DESCRIPTION@"
+            VALUE "FileVersion",      "@CCM_VERSION@"
+            VALUE "InternalName",     "@CCM_RC_INTERNAL_NAME@"
+            VALUE "OriginalFilename", "@CCM_RC_ORIGINAL_NAME@"
+            VALUE "ProductName",      "Claude Code Monitor"
+            VALUE "ProductVersion",   "@CCM_VERSION@"
+            VALUE "LegalCopyright",    "Copyright (C) 2026 Innogrid Co., Ltd. GPL-3.0-only."
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
