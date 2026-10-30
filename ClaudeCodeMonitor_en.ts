@@ -20,8 +20,8 @@
     </message>
     <message>
         <location filename="mainwindow.cpp" line="107"/>
-        <location filename="mainwindow.cpp" line="168"/>
-        <location filename="mainwindow.cpp" line="209"/>
+        <location filename="mainwindow.cpp" line="177"/>
+        <location filename="mainwindow.cpp" line="218"/>
         <source>알림 관리</source>
         <translation type="unfinished"></translation>
     </message>
@@ -36,176 +36,198 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="144"/>
+        <location filename="mainwindow.cpp" line="153"/>
         <source>요약</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="161"/>
-        <location filename="mainwindow.cpp" line="194"/>
+        <location filename="mainwindow.cpp" line="170"/>
+        <location filename="mainwindow.cpp" line="203"/>
         <source>지금 조회</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="172"/>
-        <location filename="mainwindow.cpp" line="212"/>
+        <location filename="mainwindow.cpp" line="181"/>
+        <location filename="mainwindow.cpp" line="221"/>
         <source>설정</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="193"/>
+        <location filename="mainwindow.cpp" line="202"/>
         <source>파일(&amp;F)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="202"/>
+        <location filename="mainwindow.cpp" line="211"/>
         <source>종료</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="208"/>
+        <location filename="mainwindow.cpp" line="217"/>
         <source>도구(&amp;T)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="216"/>
+        <location filename="mainwindow.cpp" line="225"/>
         <source>statusline 훅 등록</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="223"/>
-        <location filename="mainwindow.cpp" line="253"/>
+        <location filename="mainwindow.cpp" line="232"/>
+        <location filename="mainwindow.cpp" line="262"/>
         <source>디버그 콘솔</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="227"/>
+        <location filename="mainwindow.cpp" line="236"/>
         <source>로그를 실시간으로 볼 콘솔 창을 붙입니다. 릴리즈 빌드에서도 동작합니다.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="233"/>
+        <location filename="mainwindow.cpp" line="242"/>
         <source>도움말(&amp;H)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="234"/>
+        <location filename="mainwindow.cpp" line="243"/>
         <source>ClaudeCodeMonitor 정보</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="242"/>
+        <location filename="mainwindow.cpp" line="251"/>
         <source>디버그 콘솔을 닫았습니다.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="248"/>
+        <location filename="mainwindow.cpp" line="257"/>
         <source>디버그 콘솔을 열었습니다.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="330"/>
+        <location filename="mainwindow.cpp" line="339"/>
         <source>트레이에서 계속 동작합니다. 종료는 트레이 메뉴에서.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="341"/>
+        <location filename="mainwindow.cpp" line="350"/>
         <source>claude 에 사용량을 요청하는 중...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="356"/>
+        <location filename="mainwindow.cpp" line="365"/>
         <source>한도 창 %1개를 조회했습니다.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="466"/>
+        <location filename="mainwindow.cpp" line="480"/>
         <source>사용량 수준: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="478"/>
+        <location filename="mainwindow.cpp" line="492"/>
         <source>조회 중</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="476"/>
+        <location filename="mainwindow.cpp" line="490"/>
         <source>claude 에 사용량을 요청하는 중입니다.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="486"/>
+        <location filename="mainwindow.cpp" line="500"/>
         <source>조회 실패</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="495"/>
+        <location filename="mainwindow.cpp" line="509"/>
         <source>[설정 &gt; 환경 설정 &gt; statusline 훅] 에서 등록할 수 있습니다.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="497"/>
+        <location filename="mainwindow.cpp" line="511"/>
         <source>훅 미등록</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="505"/>
+        <location filename="mainwindow.cpp" line="519"/>
         <source>대기 중</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="503"/>
+        <location filename="mainwindow.cpp" line="517"/>
         <source>아직 조회하지 않았습니다.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="468"/>
+        <location filename="mainwindow.cpp" line="482"/>
         <source>마지막 조회: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="492"/>
+        <location filename="mainwindow.cpp" line="506"/>
         <source>statusline 훅이 등록되어 있지 않습니다. Claude Code 터미널 아래에 사용률이 표시되지 않을 뿐, 조회와 알림은 그대로 동작합니다.</source>
         <oldsource>statusline 훅이 등록되어 있지 않습니다. 조회는 되지만, 프로그램을 켜지 않은 동안의 사용량은 쌓이지 않습니다.</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="542"/>
+        <location filename="mainwindow.cpp" line="527"/>
+        <source>Claude 가 이 계정에 적용 중인 사용 한도를 보고하지 않았습니다. Claude Code 로 작업을 시작하면 한도 창이 생성됩니다.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="mainwindow.cpp" line="531"/>
+        <source>한도 없음</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="mainwindow.cpp" line="552"/>
+        <source>표시할 한도가 없습니다.
+Claude Code 로 작업을 시작하면 한도 창이 생성됩니다.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="mainwindow.cpp" line="580"/>
         <source>아직 조회한 값이 없습니다. [지금 조회] 를 누르십시오.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="546"/>
+        <location filename="mainwindow.cpp" line="585"/>
+        <source>현재 적용 중인 사용 한도가 없습니다.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="mainwindow.cpp" line="593"/>
         <source>%1 : %2%</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="550"/>
+        <location filename="mainwindow.cpp" line="597"/>
         <source>   재설정 %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="555"/>
+        <location filename="mainwindow.cpp" line="587"/>
+        <location filename="mainwindow.cpp" line="602"/>
         <source>플랜 : %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="564"/>
+        <location filename="mainwindow.cpp" line="611"/>
         <source>마지막 업데이트 : %1 (%2초 전)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="569"/>
+        <location filename="mainwindow.cpp" line="616"/>
         <source>자동 조회 : %1분 간격</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="570"/>
+        <location filename="mainwindow.cpp" line="617"/>
         <source>자동 조회 : 끔</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="572"/>
+        <location filename="mainwindow.cpp" line="619"/>
         <source>최근 조회 실패 : %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -228,49 +250,49 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="core/UsageReportParser.cpp" line="147"/>
+        <location filename="core/UsageReportParser.cpp" line="174"/>
         <source>%1 (주간)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="core/UsageReportParser.cpp" line="164"/>
+        <location filename="core/UsageReportParser.cpp" line="191"/>
         <source>응답 JSON 을 해석하지 못했습니다: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="core/UsageReportParser.cpp" line="172"/>
+        <location filename="core/UsageReportParser.cpp" line="199"/>
         <source>control_response 가 아닙니다: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="core/UsageReportParser.cpp" line="183"/>
+        <location filename="core/UsageReportParser.cpp" line="210"/>
         <source>claude 가 요청을 거부했습니다. (subtype=%1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="core/UsageReportParser.cpp" line="184"/>
+        <location filename="core/UsageReportParser.cpp" line="211"/>
         <source>claude 가 요청을 거부했습니다: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="core/UsageReportParser.cpp" line="211"/>
+        <location filename="core/UsageReportParser.cpp" line="238"/>
         <location filename="ui/SettingsDialog.cpp" line="124"/>
         <source>현재 세션</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="core/UsageReportParser.cpp" line="213"/>
+        <location filename="core/UsageReportParser.cpp" line="240"/>
         <location filename="ui/SettingsDialog.cpp" line="127"/>
         <source>모든 모델 (주간)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="core/UsageReportParser.cpp" line="215"/>
+        <location filename="core/UsageReportParser.cpp" line="242"/>
         <source>Sonnet 전용 (주간)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="core/UsageReportParser.cpp" line="217"/>
+        <location filename="core/UsageReportParser.cpp" line="244"/>
         <source>Opus 전용 (주간)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -320,143 +342,143 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="core/AlertTypes.cpp" line="50"/>
+        <location filename="core/AlertTypes.cpp" line="55"/>
         <source>정상</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="core/AlertTypes.cpp" line="52"/>
+        <location filename="core/AlertTypes.cpp" line="57"/>
         <source>알림</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="core/AlertTypes.cpp" line="54"/>
+        <location filename="core/AlertTypes.cpp" line="59"/>
         <source>경고</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="core/AlertTypes.cpp" line="56"/>
+        <location filename="core/AlertTypes.cpp" line="61"/>
         <source>위험</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="core/AlertTypes.cpp" line="168"/>
+        <location filename="core/AlertTypes.cpp" line="173"/>
         <source>%1 사용률 %2% (%3 임계치 %4%)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="infra/ClaudeCli.cpp" line="107"/>
+        <location filename="infra/ClaudeCli.cpp" line="106"/>
         <source>아직 조회한 값이 없습니다.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="infra/ClaudeCli.cpp" line="112"/>
+        <location filename="infra/ClaudeCli.cpp" line="111"/>
         <source>표시할 한도 창이 없습니다.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="infra/ClaudeCli.cpp" line="113"/>
+        <location filename="infra/ClaudeCli.cpp" line="112"/>
         <source>이 계정에는 플랜 한도가 적용되지 않습니다.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="infra/ClaudeCli.cpp" line="123"/>
+        <location filename="infra/ClaudeCli.cpp" line="122"/>
         <source>  (재설정 %1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="infra/HookRegistrar.cpp" line="366"/>
+        <location filename="infra/HookRegistrar.cpp" line="361"/>
         <source>ccm_probe 를 찾지 못했습니다: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="infra/HookRegistrar.cpp" line="375"/>
+        <location filename="infra/HookRegistrar.cpp" line="370"/>
         <source>ccm_probe 를 시작하지 못했습니다: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="infra/HookRegistrar.cpp" line="381"/>
+        <location filename="infra/HookRegistrar.cpp" line="376"/>
         <source>ccm_probe 가 응답하지 않습니다: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="infra/HookRegistrar.cpp" line="282"/>
-        <location filename="infra/HookRegistrar.cpp" line="399"/>
+        <location filename="infra/HookRegistrar.cpp" line="277"/>
+        <location filename="infra/HookRegistrar.cpp" line="394"/>
         <source>settings.json 을 열지 못했습니다: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="infra/HookRegistrar.cpp" line="242"/>
+        <location filename="infra/HookRegistrar.cpp" line="237"/>
         <source>등록된 statusLine 설정이 없습니다.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="infra/HookRegistrar.cpp" line="251"/>
+        <location filename="infra/HookRegistrar.cpp" line="246"/>
         <source>다른 프로그램의 statusLine 설정이라 지우지 않았습니다: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="infra/HookRegistrar.cpp" line="272"/>
+        <location filename="infra/HookRegistrar.cpp" line="267"/>
         <source>이 프로그램의 다른 복사본이 등록되어 있습니다: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="infra/HookRegistrar.cpp" line="292"/>
-        <location filename="infra/HookRegistrar.cpp" line="409"/>
+        <location filename="infra/HookRegistrar.cpp" line="287"/>
+        <location filename="infra/HookRegistrar.cpp" line="404"/>
         <source>settings.json 을 해석하지 못했습니다: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="infra/HookRegistrar.cpp" line="335"/>
+        <location filename="infra/HookRegistrar.cpp" line="330"/>
         <source>없는 파일을 가리키던 statusline 훅 등록을 지웠습니다.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="infra/HookRegistrar.cpp" line="337"/>
+        <location filename="infra/HookRegistrar.cpp" line="332"/>
         <source>statusline 훅 등록을 지웠습니다.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="infra/HookRegistrar.cpp" line="425"/>
+        <location filename="infra/HookRegistrar.cpp" line="420"/>
         <source>이미 같은 명령으로 등록되어 있습니다. 변경하지 않았습니다.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="infra/HookRegistrar.cpp" line="437"/>
+        <location filename="infra/HookRegistrar.cpp" line="432"/>
         <source>이미 다른 statusLine 설정이 있어 그대로 두었습니다: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="infra/HookRegistrar.cpp" line="303"/>
-        <location filename="infra/HookRegistrar.cpp" line="450"/>
+        <location filename="infra/HookRegistrar.cpp" line="298"/>
+        <location filename="infra/HookRegistrar.cpp" line="445"/>
         <source>백업을 만들지 못해 중단합니다: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="infra/HookRegistrar.cpp" line="466"/>
+        <location filename="infra/HookRegistrar.cpp" line="461"/>
         <source>설정 디렉터리를 만들지 못했습니다: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="infra/HookRegistrar.cpp" line="316"/>
-        <location filename="infra/HookRegistrar.cpp" line="473"/>
+        <location filename="infra/HookRegistrar.cpp" line="311"/>
+        <location filename="infra/HookRegistrar.cpp" line="468"/>
         <source>settings.json 을 쓰기 모드로 열지 못했습니다: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="infra/HookRegistrar.cpp" line="318"/>
+        <location filename="infra/HookRegistrar.cpp" line="475"/>
+        <source>settings.json 기록 중 오류가 발생했습니다: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="infra/HookRegistrar.cpp" line="323"/>
         <location filename="infra/HookRegistrar.cpp" line="480"/>
-        <source>settings.json 기록 중 오류가 발생했습니다: %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="infra/HookRegistrar.cpp" line="328"/>
-        <location filename="infra/HookRegistrar.cpp" line="485"/>
         <source>settings.json 교체에 실패했습니다: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="infra/HookRegistrar.cpp" line="489"/>
+        <location filename="infra/HookRegistrar.cpp" line="484"/>
         <source>statusline 훅을 등록했습니다.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -596,62 +618,62 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="infra/AutoStart.cpp" line="70"/>
+        <location filename="infra/platform/windows/AutoStart.cpp" line="83"/>
         <source>시작프로그램 등록에 실패했습니다. (레지스트리 오류 %1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="infra/AutoStart.cpp" line="92"/>
+        <location filename="infra/platform/windows/AutoStart.cpp" line="105"/>
         <source>시작프로그램 해제에 실패했습니다. (레지스트리 오류 %1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="app/probe_main.cpp" line="260"/>
+        <location filename="app/probe_main.cpp" line="250"/>
         <source>Claude Code statusline 훅. 표준 입력의 JSON 을 스냅샷으로 기록하고 한도 사용률 한 줄을 출력합니다.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="app/probe_main.cpp" line="269"/>
+        <location filename="app/probe_main.cpp" line="259"/>
         <source>로그 수준 (debug, info, warning, error). 기본값 info.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="app/probe_main.cpp" line="274"/>
+        <location filename="app/probe_main.cpp" line="264"/>
         <source>로그를 기록할 파일 경로. 생략하면 파일 로깅을 하지 않습니다.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="app/probe_main.cpp" line="278"/>
+        <location filename="app/probe_main.cpp" line="268"/>
         <source>스냅샷 파일 경로를 직접 지정합니다.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="app/probe_main.cpp" line="282"/>
+        <location filename="app/probe_main.cpp" line="272"/>
         <source>상태줄에 색을 넣지 않습니다. 색을 모르는 터미널에서 쓰십시오.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="app/probe_main.cpp" line="286"/>
+        <location filename="app/probe_main.cpp" line="276"/>
         <source>이 프로그램이 등록한 statusline 훅을 지우고 끝냅니다.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="app/probe_main.cpp" line="290"/>
+        <location filename="app/probe_main.cpp" line="280"/>
         <source>--unregister 와 함께 씁니다. 다른 자리의 복사본이 등록되어 있어도 지웁니다.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="app/probe_main.cpp" line="295"/>
+        <location filename="app/probe_main.cpp" line="285"/>
         <source>지금 등록된 statusline 설정을 알려 주고 끝냅니다. 고치지 않습니다.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="app/probe_main.cpp" line="299"/>
+        <location filename="app/probe_main.cpp" line="289"/>
         <source>--print-hook-state 의 결과를 적을 INI 파일 경로.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="app/probe_main.cpp" line="304"/>
+        <location filename="app/probe_main.cpp" line="294"/>
         <source>NO_COLOR 환경 변수가 있어도 상태줄에 색을 넣습니다.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -887,7 +909,7 @@
     <name>ccm::ui::SettingsDialog</name>
     <message>
         <location filename="ui/SettingsDialog.cpp" line="138"/>
-        <location filename="ui/SettingsDialog.cpp" line="740"/>
+        <location filename="ui/SettingsDialog.cpp" line="748"/>
         <source>설정</source>
         <translation type="unfinished"></translation>
     </message>
@@ -912,24 +934,24 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui/SettingsDialog.cpp" line="232"/>
+        <location filename="ui/SettingsDialog.cpp" line="235"/>
         <source>statusline 훅</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui/SettingsDialog.cpp" line="236"/>
+        <location filename="ui/SettingsDialog.cpp" line="239"/>
         <source>Claude Code 터미널 아래 상태줄에 사용률을 표시합니다. 이 프로그램의 화면과는 별개이며, 해제해도 조회와 알림은 그대로 동작합니다.</source>
         <oldsource>Claude Code 가 상태줄을 갱신할 때마다 사용량 스냅샷을 남기도록 등록합니다. 등록해 두면 프로그램을 켜지 않은 동안의 사용량도 쌓입니다.</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui/SettingsDialog.cpp" line="242"/>
+        <location filename="ui/SettingsDialog.cpp" line="245"/>
         <source>훅 등록</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="ui/SettingsDialog.cpp" line="170"/>
-        <location filename="ui/SettingsDialog.cpp" line="351"/>
+        <location filename="ui/SettingsDialog.cpp" line="354"/>
         <source>알림 임계치</source>
         <translation type="unfinished"></translation>
     </message>
@@ -954,99 +976,104 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui/SettingsDialog.cpp" line="199"/>
+        <location filename="ui/SettingsDialog.cpp" line="202"/>
         <source>시작할 때 창을 띄우지 않고 트레이에서 실행</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui/SettingsDialog.cpp" line="203"/>
+        <location filename="ui/SettingsDialog.cpp" line="206"/>
         <source>창을 닫을 때 어떻게 할지 물어보기</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui/SettingsDialog.cpp" line="222"/>
+        <location filename="ui/SettingsDialog.cpp" line="225"/>
         <source>위 확인란을 켜고 [저장] 을 누르면 이 명령이 로그인 시 자동으로 실행되도록 등록됩니다. 직접 실행할 명령이 아닙니다.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui/SettingsDialog.cpp" line="250"/>
+        <location filename="ui/SettingsDialog.cpp" line="253"/>
         <source>훅 해제</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui/SettingsDialog.cpp" line="298"/>
+        <location filename="ui/SettingsDialog.cpp" line="301"/>
         <source>알림 활성</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui/SettingsDialog.cpp" line="304"/>
+        <location filename="ui/SettingsDialog.cpp" line="307"/>
         <source>이 줄로 알릴지 정합니다. 개수 제한은 없습니다. 꺼도 차트에는 그대로 그릴 수 있습니다.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui/SettingsDialog.cpp" line="309"/>
+        <location filename="ui/SettingsDialog.cpp" line="312"/>
         <source>사용률 추이 차트에 점선으로 표시할 임계치를 고릅니다. 최대 %1개. 알림을 켜고 끄는 것과는 상관이 없습니다.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui/SettingsDialog.cpp" line="362"/>
+        <location filename="ui/SettingsDialog.cpp" line="365"/>
         <source>지표 하나에 여러 줄을 둘 수 있습니다. 예: 현재 세션 70% 알림, 85% 경고, 95% 위험.
 한 지표의 줄을 모두 지우면 그 지표는 알리지 않습니다. 표에 없는 지표(나중에 생긴 모델 등)는 종류별 기본값으로 동작합니다.
 [알림 활성] 과 [차트 표시] 는 서로 상관이 없습니다. 알림을 꺼도 차트에는 그릴 수 있고, 그 반대도 됩니다.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui/SettingsDialog.cpp" line="385"/>
+        <location filename="ui/SettingsDialog.cpp" line="388"/>
         <source>이 임계치를 넘으면 알립니다.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui/SettingsDialog.cpp" line="484"/>
+        <location filename="ui/SettingsDialog.cpp" line="487"/>
         <source>[차트 표시] 로 고른 임계치가 사용률 추이 차트에 점선으로 표시됩니다. 최대 %1개까지, 지금 %2개를 골랐습니다.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui/SettingsDialog.cpp" line="625"/>
+        <location filename="ui/SettingsDialog.cpp" line="618"/>
+        <source>현재 상태: 이 운영체제에서는 아직 지원하지 않습니다.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="ui/SettingsDialog.cpp" line="633"/>
         <source>등록되어 있습니다.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui/SettingsDialog.cpp" line="630"/>
+        <location filename="ui/SettingsDialog.cpp" line="638"/>
         <source>이 프로그램의 다른 복사본이 등록되어 있습니다: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui/SettingsDialog.cpp" line="635"/>
+        <location filename="ui/SettingsDialog.cpp" line="643"/>
         <source>다른 명령이 등록되어 있습니다: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui/SettingsDialog.cpp" line="638"/>
+        <location filename="ui/SettingsDialog.cpp" line="646"/>
         <source>등록되어 있지 않습니다.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui/SettingsDialog.cpp" line="389"/>
+        <location filename="ui/SettingsDialog.cpp" line="392"/>
         <source>이 임계치를 사용률 추이 차트에 점선으로 표시합니다.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui/SettingsDialog.cpp" line="301"/>
+        <location filename="ui/SettingsDialog.cpp" line="304"/>
         <source>지표</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui/SettingsDialog.cpp" line="301"/>
+        <location filename="ui/SettingsDialog.cpp" line="304"/>
         <source>사용률</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui/SettingsDialog.cpp" line="301"/>
+        <location filename="ui/SettingsDialog.cpp" line="304"/>
         <source>수준</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui/SettingsDialog.cpp" line="299"/>
+        <location filename="ui/SettingsDialog.cpp" line="302"/>
         <source>차트 표시</source>
         <oldsource>차트 표시임계치</oldsource>
         <translation type="unfinished"></translation>
@@ -1062,73 +1089,73 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui/SettingsDialog.cpp" line="266"/>
+        <location filename="ui/SettingsDialog.cpp" line="269"/>
         <source>알림 설정</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui/SettingsDialog.cpp" line="267"/>
+        <location filename="ui/SettingsDialog.cpp" line="270"/>
         <source>환경 설정</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui/SettingsDialog.cpp" line="333"/>
+        <location filename="ui/SettingsDialog.cpp" line="336"/>
         <source>알림 추가</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui/SettingsDialog.cpp" line="344"/>
+        <location filename="ui/SettingsDialog.cpp" line="347"/>
         <source>선택 알림 삭제</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui/SettingsDialog.cpp" line="349"/>
+        <location filename="ui/SettingsDialog.cpp" line="352"/>
         <source>기본값으로</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui/SettingsDialog.cpp" line="352"/>
+        <location filename="ui/SettingsDialog.cpp" line="355"/>
         <source>지금 표를 버리고 지표별 기본값으로 되돌립니다. 계속할까요?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui/SettingsDialog.cpp" line="573"/>
+        <location filename="ui/SettingsDialog.cpp" line="576"/>
         <source>설정 파일: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui/SettingsDialog.cpp" line="584"/>
+        <location filename="ui/SettingsDialog.cpp" line="587"/>
         <source>닫기(X)를 누르면 백그라운드 유지 / 완전 종료 / 취소를 고르는 창이 뜹니다.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui/SettingsDialog.cpp" line="591"/>
+        <location filename="ui/SettingsDialog.cpp" line="594"/>
         <source>묻지 않습니다. 닫기(X)를 누르면 바로 완전 종료합니다.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui/SettingsDialog.cpp" line="592"/>
+        <location filename="ui/SettingsDialog.cpp" line="595"/>
         <source>묻지 않습니다. 닫기(X)를 누르면 트레이로 내려가 계속 동작합니다.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui/SettingsDialog.cpp" line="601"/>
+        <location filename="ui/SettingsDialog.cpp" line="604"/>
         <source>현재 상태: 등록되어 있지 않습니다.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui/SettingsDialog.cpp" line="603"/>
+        <location filename="ui/SettingsDialog.cpp" line="606"/>
         <source>현재 상태: 등록되어 있습니다.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui/SettingsDialog.cpp" line="608"/>
+        <location filename="ui/SettingsDialog.cpp" line="611"/>
         <source>현재 상태: 다른 실행 파일이 등록되어 있습니다.
 등록된 명령: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui/SettingsDialog.cpp" line="613"/>
+        <location filename="ui/SettingsDialog.cpp" line="621"/>
         <source>등록되는 명령: %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1216,17 +1243,22 @@
     <name>ccm::ui::UsageChart</name>
     <message>
         <location filename="ui/UsageChart.cpp" line="109"/>
-        <location filename="ui/UsageChart.cpp" line="137"/>
+        <location filename="ui/UsageChart.cpp" line="141"/>
         <source>아직 표본이 없습니다. 조회하면 쌓입니다.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui/UsageChart.cpp" line="139"/>
+        <location filename="ui/UsageChart.cpp" line="140"/>
+        <source>표시할 한도가 없어 추이를 그리지 않습니다.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="ui/UsageChart.cpp" line="143"/>
         <source>표본이 %1개뿐입니다. 두 번 이상 조회하면 추이가 그려집니다.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui/UsageChart.cpp" line="212"/>
+        <location filename="ui/UsageChart.cpp" line="216"/>
         <source>%1임계치</source>
         <translation type="unfinished"></translation>
     </message>

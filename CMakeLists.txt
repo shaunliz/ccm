@@ -4,7 +4,7 @@
 cmake_minimum_required(VERSION 3.19)
 # 버전은 여기 하나뿐이다. 실행 파일 리소스(VERSIONINFO), --version 출력, NSIS
 # 스크립트가 모두 이 값을 받아 간다. (core/Version.h 주석 참조)
-project(ClaudeCodeMonitor VERSION 1.0.0 LANGUAGES CXX)
+project(ClaudeCodeMonitor VERSION 1.0.1 LANGUAGES CXX)
 
 find_package(Qt6 6.5 REQUIRED COMPONENTS Core Widgets Charts Network LinguistTools)
 

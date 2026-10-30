@@ -67,6 +67,16 @@ class UsageChart : public QWidget
     Q_OBJECT
 
 public:
+    /// 표본이 없을 때 띄울 안내의 종류.
+    ///
+    /// 차트는 이력만 받으므로 "아직 조회하지 않은 것" 과 "조회했는데 적용 중인
+    /// 한도가 없어 쌓을 것이 없는 것" 을 구별하지 못한다. 보고의 상태를 아는
+    /// 쪽이 정해서 넘긴다.
+    enum class EmptyReason {
+        NotFetched,   ///< 아직 조회하지 않았다.
+        NoLimits      ///< 조회했으나 적용 중인 한도가 없다.
+    };
+
     explicit UsageChart(QWidget *parent = nullptr);
 
     /// 이력을 받아 다시 그린다.
@@ -80,10 +90,14 @@ public:
     void setRangeHours(int hours);
     int rangeHours() const { return m_rangeHours; }
 
+    /// 표본이 없을 때 띄울 안내를 고른다. 다음 refresh() 부터 반영된다.
+    void setEmptyReason(EmptyReason reason) { m_emptyReason = reason; }
+
 private:
     QChartView *m_view = nullptr;
     QLabel *m_emptyLabel = nullptr;
     int m_rangeHours = 24;
+    EmptyReason m_emptyReason = EmptyReason::NotFetched;
 };
 
 } // namespace ccm::ui

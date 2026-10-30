@@ -138,6 +138,15 @@ void MainWindow::buildUi()
     auto *gaugeGroup = new QGroupBox(tr("현재 사용량"), central);
     m_gaugeLayout = new QVBoxLayout(gaugeGroup);
     m_gaugeLayout->setSpacing(12);
+
+    // 적용 중인 한도가 없으면 게이지가 하나도 만들어지지 않는다. 빈 상자만
+    // 남으면 고장인지 정상인지 구별되지 않으므로 안내를 깔아 둔다.
+    m_gaugeEmptyLabel = new QLabel(gaugeGroup);
+    m_gaugeEmptyLabel->setWordWrap(true);
+    m_gaugeEmptyLabel->setVisible(false);
+    ccm::ui::applyHintTextColor(m_gaugeEmptyLabel);
+    m_gaugeLayout->addWidget(m_gaugeEmptyLabel);
+
     layout->addWidget(gaugeGroup);
 
     // --- 텍스트 요약 ---
@@ -378,6 +387,11 @@ void MainWindow::refreshChart()
         // 뜻이므로 그대로 따른다.
         thresholds = firstThresholdToDraw();
     }
+    // 차트는 이력만 보므로 "조회 전" 과 "한도 없음" 을 구별하지 못한다.
+    // 보고 상태를 아는 여기서 정해 준다.
+    m_chart->setEmptyReason(report.valid && report.windows.isEmpty()
+                                ? ccm::ui::UsageChart::EmptyReason::NoLimits
+                                : ccm::ui::UsageChart::EmptyReason::NotFetched);
     m_chart->refresh(m_service->history(), labels, thresholds);
 }
 
@@ -507,6 +521,18 @@ void MainWindow::updateHealth()
         return;
     }
 
+    if (report.windows.isEmpty()) {
+        // 조회는 성공했으나 적용 중인 한도가 없다. 오류가 아니므로 색은 그대로
+        // 두되, 화면이 비어 있는데 "정상" 이라고만 적혀 있으면 고장으로 읽힌다.
+        detail << tr("Claude 가 이 계정에 적용 중인 사용 한도를 보고하지 "
+                     "않았습니다. Claude Code 로 작업을 시작하면 한도 창이 "
+                     "생성됩니다.");
+        announce("한도 없음");
+        m_health->setStatus(ccm::ui::HealthState::Ok, tr("한도 없음"),
+                            detail.join(QChar::LineFeed));
+        return;
+    }
+
     // 걸리는 것이 없다. 글자도 사용량 수준을 말하게 둔다. 빨간 램프 옆에
     // "정상" 이라고 적혀 있으면 어느 쪽을 믿어야 할지 알 수 없다.
     announce("정상");
@@ -516,6 +542,18 @@ void MainWindow::updateHealth()
 
 void MainWindow::updateGauges(const ccm::core::UsageReport &report)
 {
+    // 한도가 없는 계정이거나 아직 한도 창이 생기지 않은 상태다. 게이지 대신
+    // 무슨 상태인지와 무엇을 하면 되는지를 보인다.
+    if (m_gaugeEmptyLabel) {
+        const bool noWindows = report.windows.isEmpty();
+        m_gaugeEmptyLabel->setVisible(noWindows);
+        if (noWindows) {
+            m_gaugeEmptyLabel->setText(
+                tr("표시할 한도가 없습니다.\n"
+                   "Claude Code 로 작업을 시작하면 한도 창이 생성됩니다."));
+        }
+    }
+
     // 창의 개수가 조회마다 달라질 수 있으므로 게이지를 필요한 수만큼 맞춘다.
     while (m_gauges.size() < report.windows.size()) {
         auto *gauge = new ccm::ui::UsageGauge(this);
@@ -540,6 +578,15 @@ void MainWindow::updateSummary()
 
     if (!report.valid) {
         m_summaryLabel->setText(tr("아직 조회한 값이 없습니다. [지금 조회] 를 누르십시오."));
+    } else if (report.windows.isEmpty()) {
+        // 조회는 됐는데 적용 중인 한도가 없는 경우다. 아래 for 문이 한 줄도
+        // 만들지 않아 라벨이 통째로 비므로 여기서 따로 받는다.
+        QStringList lines;
+        lines << tr("현재 적용 중인 사용 한도가 없습니다.");
+        if (!report.subscriptionType.isEmpty()) {
+            lines << tr("플랜 : %1").arg(report.subscriptionType);
+        }
+        m_summaryLabel->setText(lines.join(QChar::LineFeed));
     } else {
         QStringList lines;
         for (const ccm::core::UsageWindow &window : report.windows) {

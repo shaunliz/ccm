@@ -134,7 +134,11 @@ void UsageChart::refresh(const ccm::infra::UsageHistory &history,
     const bool drawable = samples.size() >= 2 && !keys.isEmpty();
     m_emptyLabel->setVisible(!drawable);
     if (samples.isEmpty()) {
-        m_emptyLabel->setText(tr("아직 표본이 없습니다. 조회하면 쌓입니다."));
+        // 적용 중인 한도가 없으면 몇 번을 조회해도 쌓이지 않는다. 그 상태에서
+        // "조회하면 쌓입니다" 는 틀린 안내가 된다.
+        m_emptyLabel->setText(m_emptyReason == EmptyReason::NoLimits
+                                  ? tr("표시할 한도가 없어 추이를 그리지 않습니다.")
+                                  : tr("아직 표본이 없습니다. 조회하면 쌓입니다."));
     } else if (!drawable) {
         m_emptyLabel->setText(tr("표본이 %1개뿐입니다. 두 번 이상 조회하면 추이가 그려집니다.")
                                   .arg(samples.size()));

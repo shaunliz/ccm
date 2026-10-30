@@ -120,6 +120,7 @@ private:
     QList<ccm::ui::UsageGauge *> m_gauges = {};
     QLabel *m_summaryLabel = nullptr;
     QLabel *m_updatedLabel = nullptr;
+    QLabel *m_gaugeEmptyLabel = nullptr;
     QPushButton *m_refreshButton = nullptr;
     QPushButton *m_alertButton = nullptr;
     ccm::ui::HealthScanner *m_health = nullptr;
